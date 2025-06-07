@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .text-shadow {
+      font-size: 24px;
+      color: red;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* x-offset, y-offset, blur, color */
+    }
+  </style>
+</head>
+<body>
+
+  <h2 class="text-shadow">This text has a shadow effect</h2>
+
+</body>
+</html>
