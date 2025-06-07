@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .justified-text {
+      text-align: justify;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin: 20px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Justified Paragraph Example</h2>
+
+  <p class="justified-text">
+    Justified text aligns the content evenly along both the left and right margins, creating a clean and professional block of text. This formatting style is commonly used in newspapers, books, and reports to give a more structured and formal appearance.
+  </p>
+
+</body>
+</html>
