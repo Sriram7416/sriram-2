@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIFA World Cup 2014 News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #e0e0e0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .info-box {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .info-box a {
+            color: blue;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sports World</h1>
+    <p>Your destination for all sports updates</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Gallery</a>
+</nav>
+
+
+<section>
+    <h2>FIFA World Cup 2014 News</h2>
+    <p>Stay tuned for live updates, match highlights, team standings, and exclusive interviews from Brazil 2014!</p>
+</section>
+
+<section class="info-box">
+    <h2>Destinations</h2>
+    <ul>
+       <li><a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_2014_FIFA_World_Cup_venues">Venues</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_schedule">Schedule</a></li>
+        <li><a href="https://www.fifa.com/tickets/">Tickets</a></ul></li>
+    
+</section>
+
+</body>
+</html>
