@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .font-style {
+      font: italic small-caps bold 18px/1.5 "Georgia", serif;
+    }
+  </style>
+</head>
+<body>
+
+  <p class="font-style">
+    This paragraph uses all font properties set in one shorthand declaration. The text is italic, small-caps, bold, 18px in size, with 1.5 line height, and uses Georgia font.
+  </p>
+
+</body>
+</html>
