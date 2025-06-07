@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Bars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .nav-box {
+      border: 1px solid #aaa;
+      padding: 15px;
+      margin-bottom: 30px;
+      width: fit-content;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .nav-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Vertical Navigation Styles */
+    .vertical-nav a {
+      display: block;
+      padding: 10px;
+      width: 160px;
+      text-decoration: none;
+      color: blue;
+    }
+
+    .vertical-nav a.home {
+      background-color: orange;
+      color: white;
+    }
+
+    .vertical-nav a:not(.home) {
+      background-color: lightblue;
+    }
+
+    /* Horizontal Navigation Styles */
+    .horizontal-nav {
+      padding: 10px;
+      display: flex;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .horizontal-nav a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: blue;
+      border: 1px solid blue;
+      background-color: lightgrey;
+      flex-shrink: 0;
+    }
+
+    .horizontal-nav a.home {
+      background-color: grey;
+      color: black;
+    }
+
+    .horizontal-nav a:last-child {
+      width: 60px;
+      border-right: 1px solid blue;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav-title">Vertical Navigation Bar</div>
+  <div class="nav-box">
+    <div class="vertical-nav">
+      <a href="#" class="home">Home</a>
+      <a href="#">Java</a>
+      <a href="#">CSS</a>
+      <a href="#">HTML</a>
+      <a href="#">Bootstrap</a>
+    </div>
+  </div>
+
+  <div class="nav-title">Horizontal Navigation Bar</div>
+  <div class="nav-box" style="width: 415px;"> 
+    <div class="horizontal-nav">
+      <a href="#" class="home">Home</a>
+      <a href="#">Java</a>
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#"></a> 
+    </div>
+  </div>
+
+</body>
+</html>
